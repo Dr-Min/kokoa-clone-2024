@@ -1,17 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 @import "reset.css";
 @import "variables.css";
-@import "components/nav-bar.css";
 
 /* Components */
 @import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
 
 /* Screens */
 @import "screens/login-form.css";
+@import "screens/friends.css";
 
 body {
   font-family: "Roboto", sans-serif;
-  height: 1000vh;
+  color: #2e363e;
 }
 
 .welcome-header {
@@ -30,4 +34,8 @@ body {
 .welcome-header__text {
   width: 60%;
   opacity: 0.7;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
 }
